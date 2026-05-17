@@ -66,6 +66,7 @@ router.post('/:id/remind', async (req, res) => {
       .run(reminderId, invoice.id, 'Reminder email sent');
     res.json({ message: 'Reminder sent!' });
   } catch (err) {
+    console.error('EMAIL ERROR:', err);
     res.status(500).json({ error: 'Failed to send email: ' + err.message });
   }
 });
