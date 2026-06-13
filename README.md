@@ -4,7 +4,7 @@ A clean, fast, and fully functional payment reminder system built for small busi
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
 ### Dashboard
 ![Dashboard](docs/screenshots/dashboard.png)
